@@ -155,4 +155,5 @@ function main() {
   setupEditPostForm();
 }
 
-main();
+document.addEventListener("DOMContentLoaded", main);
+
