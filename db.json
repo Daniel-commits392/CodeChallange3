@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mombasa City",
+      "content": "Mombasa offers white sunny beaches and various Swahili culture",
+      "author": "Alice Nyokabi",
+      "date": "2025-06-26",
+      "imageUrl": "https://images.unsplash.com/photo-1581113724182-40b6f5cf51b9?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "title": "The Mountains",
+      "content": "Which one is the tallest mountain, Mt Kenya or Mt Kilimanjaro?",
+      "author": "Ken Mula",
+      "date": "2025-06-26",
+      "imageUrl": "https://images.unsplash.com/photo-1508970436-aec70d89f56b?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "title": "Trying something",
+      "content": "just a test",
+      "author": "Mysterio",
+      "date": "2025-06-26",
+      "imageUrl": "https://images.unsplash.com/photo-1610878180933-d2e7c8c45f77",
+      "id": 3
+    }
+  ]
+}

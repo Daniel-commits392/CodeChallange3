@@ -1,0 +1,140 @@
+body {
+  background-color: grey;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+#post-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#post-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #ddd;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+#new {
+  margin-bottom: 2rem;
+}
+
+#new h2 {
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: darkblue;
+}
+
+#new label {
+  display: block;
+  margin-top: 0.7rem;
+  font-weight: 600;
+}
+
+#new input,
+#new textarea {
+  width: 25rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #aaa;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#post-detail {
+  width: 40rem;
+  padding: 1.3rem;
+  border: 2px solid black;
+  border-radius: 1.1rem;
+  background-color: #fff;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: auto;
+}
+
+#post-title,
+#post-content,
+#post-author,
+#post-date {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  display: block;
+  box-sizing: border-box;
+}
+
+#post-content {
+  height: 6rem;
+  resize: vertical;
+}
+
+#delete-btn {
+  background-color: brown;
+  color: lightgreen;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+#delete-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#edit-btn {
+  background-color: red;
+  color: yellow;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+#edit-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#edit-post-form {
+  background: red;
+  border-radius: 0.4rem;
+  margin: 2rem auto;
+  width: 40rem;
+  padding: 1rem;
+}
+
+#edit-post-form textarea {
+  resize: vertical;
+  width: 100%;
+  height: 6rem;
+}
+
+#edit-post-form button:hover {
+  background-color: #1e7e34;
+}
+
